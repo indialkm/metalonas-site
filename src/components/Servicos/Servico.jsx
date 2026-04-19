@@ -28,7 +28,7 @@ const Servico = () => {
     },
     {
       title: "Suporte Consultivo",
-      desc: "Mais do que fornecer estruturas, oferecemos consultoria completa para entender e viabilizar a necessidade real do seu evento.",
+      desc: "Mais do que fornecer estruturas, oferecemos consultoria completa para entender e viabilizar seu projeto.",
       icon: <ChatBubbleBottomCenterTextIcon className="w-8 h-8 text-orange-500" />,
       color: "from-orange-50 to-white"
     }
@@ -37,6 +37,12 @@ const Servico = () => {
   return (
     <section className="w-full py-16 bg-gray-50" id="servicos">
       <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-12">
+         
+          <h2 className="text-4xl md:text-5xl font-black text-[#042c66] mt-6 uppercase italic tracking-tighter">
+          Serviços
+          </h2>
+        </div>
         {/* Grid: 1 coluna no mobile, 2 em tablets, 4 em desktop */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((f, idx) => (
